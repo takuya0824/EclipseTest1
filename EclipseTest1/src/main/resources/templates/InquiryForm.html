@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org/">
 <head>
 <meta charset="UTF-8">
 <title>問い合わせフォーム</title>
 </head>
 <body>
-  <form action="InquiryResult" method="post" th:object="${dataForm}">
+  <form action="InquiryResult" method="post" th:object="${formData}">
     <div>
-      名前<br>
+      名前<br> 
       <input th:field="*{name}" type="text">
     </div>
     <div>

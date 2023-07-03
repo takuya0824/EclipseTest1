@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org/">
 <head>
 <meta charset="UTF-8">
 <title>受付完了</title>
 </head>
 <body>
-  <div th:object="${dataForm}">
+  <div th:object="${formData}">
     入力を受け付けました。
     <div th:text="'お名前：' + *{name}"><br></div>
     <div th:text="'メールアドレス:' + *{mail}"><br></div>
